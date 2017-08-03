@@ -24,7 +24,7 @@ The [redux-router engine](#redux-router-engine) is initialized by passing a set 
 
 ## Define Your Routes {#define-your-routes}
 
-Therefore, to configure the engine, you will first need specify your app's routes according to [react-router]'s specs. For example, a typical `routes.jsx` file might look like this:
+Therefore, to configure the engine, you will first need to specify your app's routes according to [react-router]'s specs. For example, a typical `routes.jsx` file might look like this:
 
 ```js
 import { Route, IndexRoute, Redirect } from "react-router";

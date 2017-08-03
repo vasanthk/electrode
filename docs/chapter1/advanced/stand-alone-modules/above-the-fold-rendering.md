@@ -2,7 +2,7 @@
 
 The [above-the-fold-only-server-render](https://github.com/electrode-io/above-the-fold-only-server-render) is a React component for optionally skipping server side rendering of components outside above-the-fold \(or inside of the viewport\). This component helps render your components on the server that are above the fold and the remaining components on the client.
 
-[above-the-fold-only-server-render](https://github.com/electrode-io/above-the-fold-only-server-render) is a_standalone_module. It is_agnostic_of your web-server framework. In this tutorial we will demonstrate how to use this module in Electrode, Express.js and Hapi.js applications.
+[above-the-fold-only-server-render](https://github.com/electrode-io/above-the-fold-only-server-render) is a standalone module. It is agnostic of your web-server framework. In this tutorial we will demonstrate how to use this module in Electrode, Express.js and Hapi.js applications.
 
 ### Why do we need this module?
 

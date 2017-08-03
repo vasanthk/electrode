@@ -21,7 +21,7 @@ headerPayload = { type: "header", UUID: "12345" };
 cookiePayload = { type: "cookie", UUID: "12345" };
 ```
 
-Once\_both\_tokens are received by the server, they are decoded and validated to make sure the payloads match.
+Once both tokens are received by the server, they are decoded and validated to make sure the payloads match.
 
 The disadvantage is that this method relies on the client making all requests through AJAX.
 
@@ -122,7 +122,7 @@ server.register({register: csrfPlugin, options}, (err) => {
 
 ### Usage Example
 
-With the configuration shown above, your app is now ready to use Stateless CSRF JWT Validation. At this point, server endpoints do not require any additional configuration for protection to be enabled. Your`GET`endpoints will automatically return a CSRF cookie\_and\_header, and your`POST`endpoints will require the same.
+With the configuration shown above, your app is now ready to use Stateless CSRF JWT Validation. At this point, server endpoints do not require any additional configuration for protection to be enabled. Your`GET`endpoints will automatically return a CSRF cookie and header, and your`POST`endpoints will require the same.
 
 Let's see a simple [example](https://github.com/electrode-io/electrode/blob/d4142ee0c938cbf973a429ee8467052aa4e1c9be/samples/universal-react-node/README.md#electrode-csrf-jwt) to show how the CSRF tokens are automatically configured:
 
